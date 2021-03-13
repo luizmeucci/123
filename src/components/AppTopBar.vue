@@ -15,8 +15,9 @@
             >
                 <v-list-item-group
                 v-model="group"
-                active-class="green"                                >
-                <router-link to="/TelaInicial">
+                color="white"
+                active-class="green--text text--darken-1">
+                <router-link to="/">
                 <v-list-item>
                     <v-list-item-icon>
                     <v-icon>mdi-home</v-icon>
