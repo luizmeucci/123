@@ -44,6 +44,15 @@
                 </v-list-item>
                 </router-link>
 
+                <router-link to="/compostagem">
+                <v-list-item>
+                    <v-list-item-icon>
+                    <v-icon>mdi-leaf</v-icon>
+                    </v-list-item-icon>
+                    <v-list-item-title>Compostagem</v-list-item-title>
+                </v-list-item>
+                </router-link>
+
                 </v-list-item-group>
             </v-list>
             </v-navigation-drawer>

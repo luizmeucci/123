@@ -6,21 +6,21 @@
 <v-img src="../assets/logo.png" class="pb-5 mb-5" >
 </v-img>
  
-<p class="text-justify text-subtitle-2 mb-2">
+<p class=" paragrafo-1 text-justify text-subtitle-2 mb-2">
 Você sabia que o Brasil só recicla 3,85% do lixo produzido? Vamos mudar isso para o bem do planeta!
 Quer reciclar, mas não sabe como?</p>
-<p class="text-justify text-subtitle-2 mb-2">O app 
+<p class=" paragrafo-1 text-justify text-subtitle-2 mb-2">O app 
 <strong> Coleta+ </strong> está aqui para te ajudar e conectar as pessoas aos 
 pontos de coleta do nosso país. Nossa página <strong>Pontos de Coleta</strong>
 mostra os pontos de reciclagem e os materiais aceitos.</p>
-<p class="text-justify text-subtitle-2 mb-1"> 
+<p class="paragrafo-1 text-justify text-subtitle-2 mb-1"> 
     Na nossa página de <strong>Informações</strong> você encontra tudo o que
 precisa saber sobre quais itens são recicláveis e como
 fazer isso. Faça sua parte para um mundo melhor.</p>
-<p class="text-center text-subtitle-1 mb-2">
+<p class="paragrafo-1 text-center text-subtitle-1 mb-2">
      </p>
    <p class="text-center font-weight-black text-h5 mb-2"> Se é público também é seu, Cuide! </p>
-<p class="text-justify text-subtitle-2 pb-5 mb-1">
+<p class="paragrafo-1 text-justify text-subtitle-2 pb-5 mb-1">
      Colabore com a manutenção de ruas, praças e espaços públicos.
 Fique de olho nos nosso pontos de coleta.
 Assim você ajuda sua família, seu bairro, sua cidade e seu país.
@@ -42,6 +42,9 @@ export default {
 }
 .tela-inicial{
     font-size: 15px;
+}
+paragrafo-1{
+  text-indent: 1.5em
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
