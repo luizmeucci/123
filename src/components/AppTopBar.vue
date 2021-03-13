@@ -1,6 +1,6 @@
 <template>
     <div class=app-top-bar>
-            <v-app-bar color="green" app dark>
+            <v-app-bar color="green" dense dark>
             <v-app-bar-nav-icon @click="drawer = true" ></v-app-bar-nav-icon>
             <v-toolbar-title>Coleta seletiva de lixo</v-toolbar-title>
             </v-app-bar>
@@ -11,13 +11,12 @@
             >
             <v-list
                 nav
-                dense
+                
             >
                 <v-list-item-group
                 v-model="group"
-                active-class="green"
-                >
-                <router-link to="/">
+                active-class="green"                                >
+                <router-link to="/Home">
                 <v-list-item>
                     <v-list-item-icon>
                     <v-icon>mdi-home</v-icon>
@@ -26,7 +25,7 @@
                 </v-list-item>
                 </router-link>
 
-                <router-link to="/pontos-de-coleta">
+                <router-link to="/PontosColeta">
                 <v-list-item>
                     <v-list-item-icon>
                     <v-icon>mdi-delete</v-icon>
