@@ -1,15 +1,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import TelaInicial from '../views/TelaInicial.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
-  }
+    name: 'TelaInicial',
+    component: TelaInicial
+    
+    },
+
 ]
 
 const router = new VueRouter({
