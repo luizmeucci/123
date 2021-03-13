@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import TelaInicial from '../views/TelaInicial.vue'
 import informacoes from '../views/informacoes.vue'
 import PontosColeta from '../views/PontosColeta.vue'
 
@@ -18,9 +18,9 @@ const routes = [
     component: informacoes
   },
   {
-    path: '/home',
-    name: 'Home',
-    component: Home
+    path: '/TelaInicial',
+    name: 'TelaInicial',
+    component: TelaInicial
   }
 
 
